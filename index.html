@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>GifTastic</title>
+  <style type="text/css">
+    button,
+    div,
+    form,
+    input {
+      margin: 10px;
+    }
+  </style>
+  <style type="text/css" src='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css'></style>
+</head>
+
+<body>
+  <div class="container">
+
+  <div id="artists-view" class='row'></div>
+
+  <div class="row">
+
+    <!-- Movies will Get Dumped Dere -->
+    <div id="gifs-appear-here" class="col-md-8"></div>
+
+    <!-- Rendered Buttons will get Dumped Here  -->
+    
+    <div id="space" class="col-md-1"></div>
+
+    <div class='col-md-3'>
+      <form id="gifs-form">
+        <label for="artist-input">Add an artist!</label>
+        <input type="text" id="artist-input"><br>
+
+        <!-- Button triggers new artist to be added -->
+        <input id="add-artist" type="submit" value="Add an artist!">
+      </form>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/app.js">
+    </script>
+  </div>
+</div>
+</body>
+
+</html>

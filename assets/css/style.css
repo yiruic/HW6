@@ -1,0 +1,43 @@
+@font-face {
+font-family: 'Aachen Std Bold';
+font-style: normal;
+font-weight: normal;
+src: local('Aachen Std Bold'), url('Aachen Std Bold.woff') format('woff');
+}
+
+body{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	align-content: center;
+	text-align: center;
+}
+
+div.game{
+	background-image: url("../images/xv_@2X.png");
+  	background-size: cover;
+	height: 1000px;
+}
+
+.h1{
+	display: block;
+	font-size: 50px;
+	color: white;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 30px;
+	background-color: black;
+	}
+
+
+#start {
+	background-color: darkred;
+    font-size: 50px;
+    align-content: center;
+    text-align: center;
+    border-radius:28px;
+	border:1px solid white;
+	display:inline-block;
+	color:#ffffff;
+	padding:15px 30px;
+	margin:auto;
+}
