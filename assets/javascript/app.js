@@ -51,7 +51,7 @@
     
 
     // Event listener for all button elements
-    $("button").on("click", function() {
+    $(document).on("click", "button", function() {
       // In this case, the "this" keyword refers to the button that was clicked
       var artistButton = $(this).attr("data-name");
 
@@ -103,9 +103,9 @@
 
 
 //pausing GIFs
-$(".gifDiv").on("click", function() {
+$("<img>").on("click", function() {
       // The attr jQuery method allows us to get or set the value of any attribute on our HTML element
-      var state = $(this).attr("difDiv");
+      var state = $(this).attr("src");
       // If the clicked image's state is still, update its src attribute to what its data-animate value is.
       // Then, set the image's data-state to animate
       // Else set src to the data-still value
